@@ -1,0 +1,27 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file '.\\label_wav.py'
+ outputting to '.\\label_wav_V2.py'
+--------------------------------------------------------------------------------
+
+48:7: INFO: Renamed 'tf.gfile.FastGFile' to 'tf.compat.v1.gfile.FastGFile'
+49:16: INFO: Renamed 'tf.GraphDef' to 'tf.compat.v1.GraphDef'
+56:36: INFO: Renamed 'tf.gfile.GFile' to 'tf.io.gfile.GFile'
+62:7: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+82:20: INFO: Renamed 'tf.gfile.Exists' to 'tf.io.gfile.exists'
+83:4: INFO: Renamed 'tf.logging.fatal' to 'tf.compat.v1.logging.fatal'
+85:23: INFO: Renamed 'tf.gfile.Exists' to 'tf.io.gfile.exists'
+86:4: INFO: Renamed 'tf.logging.fatal' to 'tf.compat.v1.logging.fatal'
+88:22: INFO: Renamed 'tf.gfile.Exists' to 'tf.io.gfile.exists'
+89:4: INFO: Renamed 'tf.logging.fatal' to 'tf.compat.v1.logging.fatal'
+133:2: INFO: Renamed 'tf.app.run' to 'tf.compat.v1.app.run'
+--------------------------------------------------------------------------------
+
